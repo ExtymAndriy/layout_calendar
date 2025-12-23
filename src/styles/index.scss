@@ -16,8 +16,8 @@ $hover-move: -20px;
 // =======================
 // Calendar Width Calculation
 // =======================
-$calendar-width: (($day-size + $border-size * 2) * $calendar-columns)
-+ ($gap-size * ($calendar-columns - 1)) + ($calendar-padding * 2);
+$calendar-width: (($day-size + $border-size * 2) * $calendar-columns) +
+  ($gap-size * ($calendar-columns - 1)) + ($calendar-padding * 2);
 
 // =======================
 // Calendar Base
